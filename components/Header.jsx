@@ -5,18 +5,15 @@ const Header = () => {
     <header>
       <div className="flex justify-between">
         <div className="flex space-x-3">
-        <p>About</p>
-        <p>Contact</p>
-        <p>Advertisement</p>
-        <p>Privacy</p>
-        <p>Login</p>
+          <p>About</p>
+          <p>Contact</p>
+          <p>Advertisement</p>
+          <p>Privacy</p>
+          <p>Login</p>
         </div>
-        <div>
-
-        </div>
-      
+        <div>icons</div>
       </div>
-      <div></div>
+      <div className="text-5xl font-bold py-5">NEWSHIVE</div>
       <div></div>
     </header>
   );
