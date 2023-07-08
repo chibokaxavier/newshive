@@ -13,7 +13,28 @@ const Header = () => {
             <p className="hidden lg:block">Login</p>
           </div>
           <p className="lg:hidden">Login</p>
-          <div>icons</div>
+          <div>
+            <SocialIcon
+              url="https://www.instagram.com/manlikexavy/"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+            <SocialIcon
+              url="https://twitter.com/manlikexavy"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+            <SocialIcon
+              url="https://wa.me/+2348121826916"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+            <SocialIcon
+              url="https://github.com/chibokaxavier"
+              fgColor="gray"
+              bgColor="transparent"
+            />
+          </div>
         </div>
         <div className="text-5xl font-bold py-5 items-center flex justify-center lg:items-start lg:justify-start">
           NEWSHIVE
