@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 const Header = () => {
   return (
@@ -12,12 +13,13 @@ const Header = () => {
             <p>Privacy</p>
             <p className="hidden lg:block">Login</p>
           </div>
-          <p className="lg:hidden">Login</p>
+          <p className="lg:hidden">LOGIN</p>
           <div>
             <SocialIcon
               url="https://www.instagram.com/manlikexavy/"
               fgColor="gray"
               bgColor="transparent"
+              className="h-2 w-2"
             />
             <SocialIcon
               url="https://twitter.com/manlikexavy"
