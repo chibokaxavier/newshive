@@ -1,10 +1,12 @@
+import Body from "@/components/Body";
 import Header from "@/components/Header";
 
-export default function Home({news}) {
+export default function Home({ news }) {
   console.log(news);
   return (
     <main>
       <Header />
+      <Body news={news} />
     </main>
   );
 }
@@ -16,7 +18,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      news: request,
+      news: request.articles,
     },
   };
 }
