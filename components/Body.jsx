@@ -1,11 +1,18 @@
+"use client";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
 const Body = ({ news }) => {
-//   const { articles } = news;
+  //   const { articles } = news;
+  const router = useRouter();
   return (
     <div>
       {news.map((article, i) => (
-        <div key={i}>{article.author}</div>
+        <div key={i}>
+          {" "}
+          <Link href={`/testing/${article.source.id}`}>{article.author}</Link>
+        </div>
       ))}
     </div>
   );

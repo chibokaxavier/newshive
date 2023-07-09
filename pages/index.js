@@ -13,7 +13,7 @@ export default function Home({ news }) {
 
 export async function getServerSideProps(context) {
   const request = await fetch(
-    "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=9791470b6ae34ef4ad08a5cc2dfedeac"
+    "https://newsapi.org/v2/everything?q=bitcoin&apiKey=9791470b6ae34ef4ad08a5cc2dfedeac"
   ).then((res) => res.json());
 
   return {
