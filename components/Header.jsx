@@ -19,7 +19,6 @@ const Header = () => {
               url="https://www.instagram.com/manlikexavy/"
               fgColor="gray"
               bgColor="transparent"
-              className="h-2 w-2"
             />
             <SocialIcon
               url="https://twitter.com/manlikexavy"
