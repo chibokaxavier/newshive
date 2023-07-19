@@ -9,7 +9,7 @@ const Body = ({ news }) => {
     <div>
       {news.map((article, i) => (
         <div key={i}>
-          <Link href={`/testing/${article.source.id}`}>{article.author}</Link>
+          {article.author}
         </div>
       ))}
     </div>
